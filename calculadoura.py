@@ -25,10 +25,10 @@ while True:
 		print('{} xx {} = {}'.format(nu1, nu2, nu1**nu2))
 	
 	elif oq == '//' or oq == 'divisão inteira' or oq == 'Divisão inteira':
-		print('{} / {} = {}'.format(nu1, nu2, nu1/nu2))	  	  
+		print('{} // {} = {}'.format(nu1, nu2, nu1//nu2))	  	  
 
 	elif oq == '%' or oq == 'resto da divisão' or oq == 'Resto da divisão':
-		print('{} / {} = {}'.format(nu1, nu2, nu1/nu2))
+		print('{} % {} = {}'.format(nu1, nu2, nu1%nu2))
 		
 	else:
 		print('forma de conta invalida')
